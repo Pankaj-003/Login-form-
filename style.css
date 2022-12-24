@@ -1,0 +1,1314 @@
+ @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,200;1,400&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,200;1,400&family=Nunito:wght@300&display=swap');
+
+ * {
+
+
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: "Nunito";
+ }
+
+ .main-box {
+     padding: 45px;
+     /* width: 100vw;
+  height: 100vh; */
+     background: linear-gradient(26deg, rgb(14, 11, 144), rgb(216, 22, 246));
+     justify-content: center;
+     align-items: center;
+ }
+
+ .main-box h1 {
+     font-family: "Josefin Sans";
+     /* font-size: 25pt; */
+     font-size: 45px;
+     font-weight: 900;
+
+ }
+
+ .main-form-box {
+     /* border: 1px solid rgb(255, 5, 5); */
+     /* height: 100vh; */
+     padding: 50px 80px;
+     width: 50%;
+     background-color: white;
+     border-bottom-left-radius: 15px;
+     border-top-left-radius: 15px;
+ }
+
+
+ .card-box {
+     display: flex;
+    
+     border-radius: 15px;
+
+
+
+ }
+
+ .main-image-box {
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     background-color: rgb(255, 255, 255);
+     /* height: 600px; */
+     width: 50%;
+     padding: 50px;
+     padding-top: 110px;
+     border-bottom-right-radius: 15px;
+     border-top-right-radius: 15px;
+ }
+
+ #para {
+     padding-top: 20px;
+     padding-bottom: 35px;
+     font-size: 20px;
+     color: rgb(75, 75, 75);
+ }
+
+ #email-box input {
+     width: 450px;
+     padding: 15px 20px;
+     border: none;
+     border-radius: 27px;
+     font-size: 15px;
+     outline: none;
+     margin-bottom: 30px;
+     border: 3px solid #5a068f;
+ }
+
+ #scales {
+     width: 20px;
+     height: 20px;
+     border-radius: 3px;
+     accent-color: #1f06a0;
+     margin-bottom: 35px;
+ }
+
+ #label {
+     font-size: 20px;
+ }
+
+ #btn {
+     width: 450px;
+     padding: 7px 20px;
+     border: none;
+     border-radius: 20px;
+     font-size: 15px;
+     outline: none;
+     margin-bottom: 30px;
+     font-size: 20px;
+     color: white;
+     background: linear-gradient(to right, rgb(14, 11, 144), rgb(216, 22, 246));
+     box-shadow: 2px 2px 3px #c97bf6;
+     transition: 0.3s;
+     cursor: pointer;
+ }
+ 
+ #btn:hover {
+    transform: scale(1.1);
+  }
+ #social-btn {
+     /* width: 180px; */
+     padding: 4px 20px;
+     border: none;
+     border-radius: 20px;
+
+     margin-top: 20px;
+     margin-bottom: 30px;
+     font-size: 16px;
+     color: rgb(0, 0, 0);
+     border: 3px solid #5a068f;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     font-weight: 900;
+     box-shadow: 2px 2px 3px #c97bf6;
+     transition: 0.3s;
+     cursor: pointer;
+
+ }
+ #social-btn:hover {
+    transform: scale(0.9);
+  }
+
+ #social-btn img {
+
+     margin-bottom: -10px;
+ }
+
+ #social-btn2 img {
+     margin-bottom: -10px;
+ }
+
+ #social-btn2 {
+     /* width: 280px; */
+     padding: 4px 20px;
+     border: none;
+     border-radius: 20px;
+     font-size: 16px;
+     font-weight: 900;
+     margin-top: 20px;
+     margin-bottom: 30px;
+
+     color: rgb(0, 0, 0);
+     border: 3px solid #5a068f;
+     margin-left: 70px;
+     box-shadow: 2px 2px 3px #c97bf6;
+     transition: 0.3s;
+     cursor: pointer;
+ }
+ /* ::placeholder{
+    border: 3px solid rgb(254, 36, 138);
+ } */
+ #usrname:hover{
+    border: 3px solid rgb(254, 36, 138);
+    /* position: absolute; */
+    
+ }
+ span{
+    position: absolute;
+    left: 154px;
+    top: 282px;
+ }
+ #psw:hover{
+    border: 3px solid rgb(254, 36, 138);
+    /* position: absolute; */
+ }
+
+ #social-btn2:hover {
+    transform: scale(0.9);
+  }
+  #mem-para {
+    font-size: 18px;
+   
+  }
+  #mem-para a{
+    text-decoration: none;
+  }
+
+
+ @media(max-width:1264px) {
+     #social-btn2 {
+         margin-left: 60px;
+     }
+ }
+ @media(max-width:1243px) {
+    #social-btn2 {
+        margin-left: 50px;
+    }
+}
+@media(max-width:1222px) {
+    #social-btn2 {
+        margin-left: 40px;
+    }
+}
+@media(max-width:1203px) {
+    #social-btn2 {
+        margin-left: 30px;
+    }
+}
+@media(max-width:1183px) {
+    #social-btn2 {
+        margin-left: 20px;
+    }
+}
+@media(max-width:1163px) {
+    #social-btn2 {
+        margin-left: 15px;
+    }
+}
+@media(max-width:1153px) {
+    #social-btn2 {
+        margin-left: 10px;
+    }
+    #email-box input {
+        width: 420px;
+       
+    }
+    #btn {
+        width: 420px;
+   
+    }
+
+
+}
+@media(max-width:1143px) {
+    #social-btn2 {
+        margin-left: 5px;
+    }
+}
+@media(max-width:1133px) {
+    #social-btn2 {
+        margin-left: 0px;
+    }
+}
+@media(max-width:1133px) {
+    #social-btn {
+       font-size: 14px;
+    }
+    #social-btn2 {
+        font-size: 14px;
+     }
+}
+@media(max-width:1090px) {
+  
+    #email-box input {
+        width: 410px;
+       
+    }
+    #btn {
+        width: 410px;
+   
+    }
+
+
+}
+@media(max-width:1072px) {
+    #social-btn {
+       font-size: 12px;
+    }
+    #social-btn2 {
+        font-size: 12px;
+     }
+       
+    #email-box input {
+        width: 400px;
+       
+    }
+    #btn {
+        width: 400px;
+   
+    }
+}
+@media(max-width:1050px) {
+
+       
+    #email-box input {
+        width: 390px;
+       
+    }
+    #btn {
+        width: 390px;
+   
+    }
+}
+ @media(max-width:1024px) {
+    .card-box {
+        flex-direction: column;
+    }
+
+    .main-image-box {
+        position: absolute;
+        background: none;
+        top: -60px;
+        left: 244px;
+    
+    }
+    #para {
+      
+        text-align: center;
+    }
+
+    .main-image-box img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .main-form-box {
+        width: 100%;
+        border-radius: 10px;
+        padding: 20px;
+        padding-top: 180px;
+
+    }
+
+    .main-box {
+        padding: 30px;
+
+    }
+
+    #email-box input {
+        width: 640px;
+        padding: 7px 20px;
+
+    }
+ 
+    #btn {
+        width: 640px;
+        padding: 2px 20px;
+
+    }
+
+
+
+    #label {
+        font-size: 17px;
+    }
+
+    #scales {
+        width: 15px;
+        height: 15px;
+       text-align: left;
+
+    }
+    .main-box h1 {
+   text-align: center;
+   padding-top: 20px;
+  
+   }
+   #social-btn2 {
+    margin-left: 268px;
+}
+form{
+    padding: 1px 121px;
+}
+}
+
+ 
+ @media(max-width:912px) {
+    .card-box {
+        flex-direction: column;
+    }
+
+    .main-image-box {
+        position: absolute;
+        background: none;
+        top: -60px;
+        left: 189px;
+    
+    }
+    #para {
+      
+        text-align: center;
+    }
+
+    .main-image-box img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .main-form-box {
+        width: 100%;
+        border-radius: 10px;
+        padding: 20px;
+        padding-top: 180px;
+
+    }
+
+    .main-box {
+        padding: 30px;
+
+    }
+
+    #email-box input {
+        width: 640px;
+        padding: 7px 20px;
+
+    }
+ 
+    #btn {
+        width: 640px;
+        padding: 2px 20px;
+
+    }
+
+
+
+    #label {
+        font-size: 17px;
+    }
+
+    #scales {
+        width: 15px;
+        height: 15px;
+       text-align: left;
+
+    }
+    .main-box h1 {
+   text-align: center;
+   padding-top: 20px;
+  
+   }
+   #social-btn2 {
+    margin-left: 268px;
+}
+form{
+    padding: 0px 53px;
+}
+
+ }
+ @media(max-width:820px) {
+    .card-box {
+        flex-direction: column;
+    }
+
+    .main-image-box {
+        position: absolute;
+        background: none;
+        top: -60px;
+        left: 189px;
+    
+    }
+    #para {
+      
+        text-align: center;
+    }
+
+    .main-image-box img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .main-form-box {
+        width: 100%;
+        border-radius: 10px;
+        padding: 20px;
+        padding-top: 180px;
+
+    }
+
+    .main-box {
+        padding: 30px;
+
+    }
+
+    #email-box input {
+        width: 640px;
+        padding: 7px 20px;
+
+    }
+ 
+    #btn {
+        width: 640px;
+        padding: 2px 20px;
+
+    }
+
+
+
+    #label {
+        font-size: 17px;
+    }
+
+    #scales {
+        width: 15px;
+        height: 15px;
+       text-align: left;
+
+    }
+    .main-box h1 {
+   text-align: center;
+   padding-top: 20px;
+  
+   }
+   #social-btn2 {
+    margin-left: 268px;
+}
+form{
+    padding: 0px 31px;
+}
+
+ }
+ @media(max-width:768px) {
+    .card-box {
+        flex-direction: column;
+    }
+
+    .main-image-box {
+        position: absolute;
+        background: none;
+        top: -60px;
+        left: 189px;
+    
+    }
+    #para {
+      
+        text-align: center;
+    }
+
+    .main-image-box img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .main-form-box {
+        width: 100%;
+        border-radius: 10px;
+        padding: 20px;
+        padding-top: 180px;
+
+    }
+
+    .main-box {
+        padding: 30px;
+
+    }
+
+    #email-box input {
+        width: 640px;
+        padding: 7px 20px;
+
+    }
+ 
+    #btn {
+        width: 640px;
+        padding: 2px 20px;
+
+    }
+
+
+
+    #label {
+        font-size: 17px;
+    }
+
+    #scales {
+        width: 15px;
+        height: 15px;
+       text-align: left;
+
+    }
+    .main-box h1 {
+   text-align: center;
+   padding-top: 20px;
+  
+   }
+   #social-btn2 {
+    margin-left: 268px;
+}
+form{
+    padding: 0px 0px;
+}
+
+ }
+ @media(max-width:752px) {
+    .card-box {
+        flex-direction: column;
+    }
+
+    .main-image-box {
+        position: absolute;
+        background: none;
+        top: -60px;
+        left: 189px;
+    
+    }
+    #para {
+      
+        text-align: center;
+    }
+
+    .main-image-box img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .main-form-box {
+        width: 100%;
+        border-radius: 10px;
+        padding: 20px;
+        padding-top: 180px;
+
+    }
+
+    .main-box {
+        padding: 30px;
+
+    }
+
+    #email-box input {
+        width: 640px;
+        padding: 7px 20px;
+
+    }
+ 
+    #btn {
+        width: 640px;
+        padding: 2px 20px;
+
+    }
+
+
+
+    #label {
+        font-size: 17px;
+    }
+
+    #scales {
+        width: 15px;
+        height: 15px;
+       text-align: left;
+
+    }
+    .main-box h1 {
+   text-align: center;
+   padding-top: 20px;
+  
+   }
+   #social-btn2 {
+    margin-left: 268px;
+}
+form{
+    padding: 0px 0px;
+}
+
+ }
+ @media(max-width:732px) {
+    .card-box {
+        flex-direction: column;
+    }
+
+    .main-image-box {
+        position: absolute;
+        background: none;
+        top: -60px;
+        left: 127px;
+    }
+    #para {
+      
+        text-align: center;
+    }
+
+    .main-image-box img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .main-form-box {
+        width: 100%;
+        border-radius: 10px;
+        padding: 20px;
+        padding-top: 180px;
+
+    }
+
+    .main-box {
+        padding: 30px;
+
+    }
+
+    #email-box input {
+        width: 413px;
+        padding: 7px 20px;
+
+    }
+ 
+    #btn {
+        width: 405px;
+        padding: 2px 20px;
+
+    }
+
+    #social-btn2 {
+        margin-left: 97px;
+    }
+
+    #label {
+        font-size: 17px;
+    }
+
+    #scales {
+        width: 15px;
+        height: 15px;
+       text-align: left;
+
+    }
+    .main-box h1 {
+   text-align: center;
+   padding-top: 20px;
+  
+   }
+   form{
+    padding: 0px 0px;
+}
+}
+ @media(max-width:540px) {
+    .card-box {
+        flex-direction: column;
+    }
+
+    .main-image-box {
+        position: absolute;
+        background: none;
+        top: -60px;
+        left: 127px;
+    }
+    #para {
+      
+        text-align: center;
+    }
+
+    .main-image-box img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .main-form-box {
+        width: 100%;
+        border-radius: 10px;
+        padding: 20px;
+        padding-top: 180px;
+
+    }
+
+    .main-box {
+        padding: 30px;
+
+    }
+
+    #email-box input {
+        width: 413px;
+        padding: 7px 20px;
+
+    }
+ 
+    #btn {
+        width: 405px;
+        padding: 2px 20px;
+
+    }
+
+
+
+    #label {
+        font-size: 17px;
+    }
+
+    #scales {
+        width: 15px;
+        height: 15px;
+       text-align: left;
+
+    }
+    .main-box h1 {
+   text-align: center;
+   padding-top: 20px;
+  
+   }
+   form{
+    padding: 0px 0px;
+}
+}
+@media(max-width:503px) {
+    .card-box {
+        flex-direction: column;
+    }
+
+    .main-image-box {
+        position: absolute;
+        background: none;
+        top: -60px;
+        left: 86px;
+    }
+
+    .main-image-box img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .main-form-box {
+        width: 100%;
+        border-radius: 10px;
+        padding: 20px;
+        /* border: 1px solid red; */
+        padding-top: 180px;
+        /* justify-content: center;
+        align-items: center;
+        text-align: center; */
+    }
+
+    .main-box {
+        padding: 30px;
+
+    }
+
+    #email-box input {
+        width: 300px;
+        padding: 7px 20px;
+
+    }
+
+    #btn {
+        width: 300px;
+        padding: 2px 20px;
+
+    }
+
+    #social-btn {
+        font-size: 10px;
+        font-weight: 900;
+        padding: 4px 6px;
+    }
+
+
+    #social-btn2 {
+
+        font-size: 10px;
+        font-weight: 900;
+        padding: 4px 6px;
+        margin-left: 65px;
+    }
+
+    #social-btn img {
+        height: 20px;
+        margin-bottom: -7px;
+    }
+
+    #social-btn2 img {
+        height: 20px;
+        margin-bottom: -7px;
+    }
+
+    #label {
+        font-size: 17px;
+    }
+
+    #scales {
+        width: 15px;
+        height: 15px;
+       text-align: left;
+
+    }
+    .main-box h1 {
+   text-align: center;
+   padding-top: 20px;
+  
+   }
+   form{
+       padding: 0px 0px;
+   }
+} 
+ @media(max-width:414px) {
+     .card-box {
+         flex-direction: column;
+     }
+
+     .main-image-box {
+         position: absolute;
+         background: none;
+         top: -60px;
+         left: 86px;
+     }
+
+     .main-image-box img {
+         width: 150px;
+         height: 150px;
+     }
+
+     .main-form-box {
+         width: 100%;
+         border-radius: 10px;
+         padding: 20px;
+         /* border: 1px solid red; */
+         padding-top: 180px;
+         /* justify-content: center;
+         align-items: center;
+         text-align: center; */
+     }
+
+     .main-box {
+         padding: 30px;
+
+     }
+
+     #email-box input {
+         width: 300px;
+         padding: 7px 20px;
+
+     }
+
+     #btn {
+         width: 300px;
+         padding: 2px 20px;
+
+     }
+
+     #social-btn {
+         font-size: 10px;
+         font-weight: 900;
+         padding: 4px 6px;
+     }
+
+
+     #social-btn2 {
+
+         font-size: 10px;
+         font-weight: 900;
+         padding: 4px 6px;
+         margin-left: 65px;
+     }
+
+     #social-btn img {
+         height: 20px;
+         margin-bottom: -7px;
+     }
+
+     #social-btn2 img {
+         height: 20px;
+         margin-bottom: -7px;
+     }
+
+     #label {
+         font-size: 17px;
+     }
+
+     #scales {
+         width: 15px;
+         height: 15px;
+        text-align: left;
+
+     }
+     .main-box h1 {
+    text-align: center;
+    padding-top: 20px;
+   
+    }
+    form{
+        padding: 0px 0px;
+    }
+ } 
+ @media(max-width:390px) {
+    #social-btn2 {
+        margin-left: 62px;
+    }
+    form{
+        padding: 0px 0px;
+    }
+ }
+ @media(max-width:375px) {
+    .card-box {
+        flex-direction: column;
+    }
+
+    .main-image-box {
+        position: absolute;
+        background: none;
+        top: -60px;
+        left: 66px;
+    }
+
+    .main-image-box img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .main-form-box {
+        width: 100%;
+        border-radius: 10px;
+        padding: 20px;
+        /* border: 1px solid red; */
+        padding-top: 180px;
+        /* justify-content: center;
+        align-items: center;
+        text-align: center; */
+    }
+
+    .main-box {
+        padding: 30px;
+
+    }
+
+    #email-box input {
+        width: 276px;
+        padding: 5px 20px;
+
+    }
+
+    #btn {
+        width: 282px;
+        padding: 1px 20px;
+
+    }
+
+    #social-btn {
+        font-size: 10px;
+        font-weight: 900;
+        padding: 4px 6px;
+    }
+
+    #social-btn2 {
+
+        font-size: 10px;
+        font-weight: 900;
+        padding: 4px 6px;
+        margin-left: 40px;
+    }
+
+    #social-btn img {
+        height: 20px;
+        margin-bottom: -7px;
+    }
+
+    #social-btn2 img {
+        height: 20px;
+        margin-bottom: -7px;
+    }
+
+    #label {
+        font-size: 17px;
+    }
+
+    #scales {
+        width: 15px;
+        height: 15px;
+       text-align: left;
+
+    }
+    .main-box h1 {
+   text-align: center;
+   padding-top: 20px;
+   font-size: 38px;
+  
+   }
+   #para {
+    padding-top: 20px;
+    padding-bottom: 35px;
+    font-size: 18px;
+    text-align: center;
+
+}
+form{
+    padding: 0px 0px;
+}
+
+}
+@media(max-width:386px) {
+    #social-btn2 {
+        font-size: 10px;
+        font-weight: 900;
+        padding: 4px 6px;
+        margin-left: 35px;
+    }
+    #btn {
+        width: 267px;
+        padding: 1px 20px;
+    }
+    form{
+        padding: 0px 0px;
+    }
+    
+}
+@media(max-width:360px) {
+    #social-btn2 {
+        font-size: 10px;
+        font-weight: 900;
+        padding: 4px 6px;
+        margin-left: 35px;
+    }
+    #btn {
+        width: 267px;
+        padding: 1px 20px;
+    }
+    form{
+        padding: 0px 0px;
+    }
+    
+}
+@media(max-width:359px) {
+    .card-box {
+        flex-direction: column;
+    }
+
+    .main-image-box {
+        position: absolute;
+        background: none;
+        top: -60px;
+        left: 16px;
+    }
+
+    .main-image-box img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .main-form-box {
+        width: 100%;
+        border-radius: 10px;
+        padding: 20px;
+        /* border: 1px solid red; */
+        padding-top: 180px;
+        /* justify-content: center;
+        align-items: center;
+        text-align: center; */
+    }
+
+    .main-box {
+        padding: 21px;
+
+    }
+
+    #email-box input {
+        width: 206px;
+        padding: 4px 20px;
+
+    }
+
+    #btn {
+           font-size: 15px;
+            width: 197px;
+            padding: 1px 20px;
+        
+
+    }
+
+    #social-btn {
+        font-size: 8px;
+        font-weight: 900;
+        padding: 4px 2px;
+      
+    }
+
+    #social-btn2 {
+
+        font-size: 8px;
+        font-weight: 900;
+        padding: 4px 2px;
+        margin-left: 40px;
+
+    }
+
+    #social-btn img {
+        height: 15px;
+        width: 15px;
+        margin-bottom: -5px;
+    }
+
+    #social-btn2 img {
+        height: 15px;
+        width: 15px;
+        margin-bottom: -5px;
+    }
+
+    #label {
+        font-size: 17px;
+    }
+
+    #scales {
+        width: 15px;
+        height: 15px;
+       text-align: left;
+
+    }
+    .main-box h1 {
+   text-align: center;
+   padding-top: 20px;
+   font-size: 38px;
+  
+   }
+   #para {
+    padding-top: 20px;
+    padding-bottom: 35px;
+    font-size: 18px;
+    text-align: center;
+
+}
+form{
+    padding: 0px 0px;
+}
+
+}
+@media(max-width:280px) {
+    .card-box {
+        flex-direction: column;
+    }
+
+    .main-image-box {
+        position: absolute;
+        background: none;
+        top: -60px;
+        left: 16px;
+    }
+
+    .main-image-box img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .main-form-box {
+        width: 100%;
+        border-radius: 10px;
+        padding: 20px;
+        /* border: 1px solid red; */
+        padding-top: 180px;
+        /* justify-content: center;
+        align-items: center;
+        text-align: center; */
+    }
+
+    .main-box {
+        padding: 21px;
+
+    }
+
+    #email-box input {
+        width: 206px;
+        padding: 4px 20px;
+
+    }
+
+    #btn {
+           font-size: 15px;
+            width: 197px;
+            padding: 1px 20px;
+        
+
+    }
+
+    #social-btn {
+        font-size: 8px;
+        font-weight: 900;
+        padding: 4px 2px;
+      
+    }
+
+    #social-btn2 {
+
+        font-size: 8px;
+        font-weight: 900;
+        padding: 4px 2px;
+        margin-left: 40px;
+
+    }
+
+    #social-btn img {
+        height: 15px;
+        width: 15px;
+        margin-bottom: -5px;
+    }
+
+    #social-btn2 img {
+        height: 15px;
+        width: 15px;
+        margin-bottom: -5px;
+    }
+
+    #label {
+        font-size: 17px;
+    }
+
+    #scales {
+        width: 15px;
+        height: 15px;
+       text-align: left;
+
+    }
+    .main-box h1 {
+   text-align: center;
+   padding-top: 20px;
+   font-size: 38px;
+  
+   }
+   #para {
+    padding-top: 20px;
+    padding-bottom: 35px;
+    font-size: 18px;
+    text-align: center;
+
+}
+form{
+    padding: 0px 0px;
+}
+
+}
